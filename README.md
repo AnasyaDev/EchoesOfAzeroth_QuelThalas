@@ -54,3 +54,9 @@ The plugin maps music for the Quel'Thalas experience, including:
 - The plugin only provides content data
 - Playback logic, profiles, custom zones, and custom packs are handled by the core addon
 - Pack selection and plugin enable/disable are managed from the `EchoesOfAzeroth` UI
+
+## Community profiles
+
+`EchoesOfAzeroth` is meant to grow as a community addon.
+
+If you build a profile that feels especially polished, immersive, or lore-accurate, please share it. Great community profiles can help refine the addon over time, and an especially strong configuration may be adopted as an official default or recommended setup in the future.
