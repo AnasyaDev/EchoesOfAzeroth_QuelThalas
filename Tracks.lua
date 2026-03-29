@@ -117,37 +117,32 @@ ns.Tracks = {
     MN_SilvermoonInnA          = 7698330,
     MN_SilvermoonInnH          = 7698332,
 
-    -- Midnight > Eversong Woods — Base outdoor (day) ------
-    MN_EversongBaseDayA        = 7690511,
-    MN_EversongBaseDayB        = 7690521,
-    MN_EversongBaseDayC        = 7690525,
-    MN_EversongBaseDayD        = 7690531,
-    MN_EversongBaseDayE        = 7690533,
+    -- Midnight > Eversong Village --------------------------
+    MN_EversongVillageA        = 7690509,
+    MN_EversongVillageB        = 7690511,
+    MN_EversongVillageC        = 7690513,
+    MN_EversongVillageD        = 7690515,
+    MN_EversongVillageE        = 7690517,
+    MN_EversongVillageF        = 7690519,
+    MN_EversongVillageH        = 7690521,
 
-    -- Midnight > Eversong Woods — Base outdoor (night) ----
-    MN_EversongBaseNightA      = 7690509,
-    MN_EversongBaseNightB      = 7690513,
-    MN_EversongBaseNightC      = 7690515,
-    MN_EversongBaseNightD      = 7690517,
-    MN_EversongBaseNightE      = 7690529,
+    -- Midnight > Eversong Woods ----------------------------
+    MN_EversongWoodsA          = 7690523,
+    MN_EversongWoodsB          = 7690525,
+    MN_EversongWoodsC          = 7690527,
+    MN_EversongWoodsD          = 7690529,
+    MN_EversongWoodsE          = 7690531,
+    MN_EversongWoodsH          = 7690533,
 
-    -- Midnight > Eversong Woods — Base (day+night shared) -
-    MN_EversongBaseUni01       = 7690523,
-
-    -- Midnight > Eversong Woods — Hub Village -------------
-    MN_EversongVillageA        = 7682352,
-    MN_EversongVillageB        = 7690519,
-    MN_EversongVillageC        = 7690527,
-
-    -- Midnight > Sunstrider Isle (day) --------------------
-    MN_SunstriderDayA          = 7682354,
-    MN_SunstriderDayB          = 7682358,
-    MN_SunstriderDayC          = 7682364,
-
-    -- Midnight > Sunstrider Isle (night) ------------------
-    MN_SunstriderNightA        = 7682356,
-    MN_SunstriderNightB        = 7682360,
-    MN_SunstriderNightC        = 7682362,
+    -- Midnight > Lake Elrendar -----------------------------
+    -- Files use the in-game spelling "Eldrendar" in CASC names.
+    MN_LakeEldrendarA          = 7682352,
+    MN_LakeEldrendarB          = 7682354,
+    MN_LakeEldrendarC          = 7682356,
+    MN_LakeEldrendarD          = 7682358,
+    MN_LakeEldrendarE          = 7682360,
+    MN_LakeEldrendarF          = 7682362,
+    MN_LakeEldrendarH          = 7682364,
 
     -- Midnight > Windrunner Village -----------------------
     MN_WindrunnerA             = 7698334,
@@ -208,11 +203,15 @@ ns.Tracks = {
     OL_BloodElfBaseWalkUni02   = 53643,
 
     -- Midnight > Twilight's Blade (dark sub-area of Eversong) --
-    -- Files: mus_120_twilights_blade_{a,c,d,h}.mp3 (b/e/f/g not in SoundKit)
     MN_TwilightsBladeA         = 7681218,
+    MN_TwilightsBladeB         = 7681220,
     MN_TwilightsBladeC         = 7681222,
     MN_TwilightsBladeD         = 7681224,
+    MN_TwilightsBladeE         = 7681226,
+    MN_TwilightsBladeF         = 7713458,
+    MN_TwilightsBladeG         = 7713460,
     MN_TwilightsBladeH         = 7681228,
+    MN_TwilightsBladeI         = 7713462,
 
     -- Midnight > Atal'abasi (ancient troll ruins in Eversong) -
     -- Files: mus_120_atalabasi_{b,c,d}.mp3 (a not in SoundKit)
@@ -387,26 +386,26 @@ ns.TrackDurations = {
     [7681094] =   65.5,  -- MN_MurderRowD
     [7698330] =  170.7,  -- MN_SilvermoonInnA
     [7698332] =  171.5,  -- MN_SilvermoonInnH
-    [7690511] =  120.5,  -- MN_EversongBaseDayA
-    [7690521] =  150.3,  -- MN_EversongBaseDayB
-    [7690525] =  106.4,  -- MN_EversongBaseDayC
-    [7690531] =  104.0,  -- MN_EversongBaseDayD
-    [7690533] =  180.6,  -- MN_EversongBaseDayE
-    [7690509] =  111.6,  -- MN_EversongBaseNightA
-    [7690513] =  149.7,  -- MN_EversongBaseNightB
-    [7690515] =  121.3,  -- MN_EversongBaseNightC
-    [7690517] =  108.8,  -- MN_EversongBaseNightD
-    [7690529] =  156.0,  -- MN_EversongBaseNightE
-    [7690523] =  106.9,  -- MN_EversongBaseUni01
-    [7682352] =  160.1,  -- MN_EversongVillageA
-    [7690519] =   99.0,  -- MN_EversongVillageB
-    [7690527] =  133.2,  -- MN_EversongVillageC
-    [7682354] =   96.2,  -- MN_SunstriderDayA
-    [7682358] =  171.0,  -- MN_SunstriderDayB
-    [7682364] =  160.1,  -- MN_SunstriderDayC
-    [7682356] =  190.0,  -- MN_SunstriderNightA
-    [7682360] =  121.5,  -- MN_SunstriderNightB
-    [7682362] =  141.7,  -- MN_SunstriderNightC
+    [7690509] =  111.6,  -- MN_EversongVillageA
+    [7690511] =  120.5,  -- MN_EversongVillageB
+    [7690513] =  149.7,  -- MN_EversongVillageC
+    [7690515] =  121.3,  -- MN_EversongVillageD
+    [7690517] =  108.8,  -- MN_EversongVillageE
+    [7690519] =   99.0,  -- MN_EversongVillageF
+    [7690521] =  150.3,  -- MN_EversongVillageH
+    [7690523] =  106.9,  -- MN_EversongWoodsA
+    [7690525] =  106.4,  -- MN_EversongWoodsB
+    [7690527] =  133.2,  -- MN_EversongWoodsC
+    [7690529] =  156.0,  -- MN_EversongWoodsD
+    [7690531] =  104.0,  -- MN_EversongWoodsE
+    [7690533] =  180.6,  -- MN_EversongWoodsH
+    [7682352] =  160.1,  -- MN_LakeEldrendarA
+    [7682354] =   96.2,  -- MN_LakeEldrendarB
+    [7682356] =  190.0,  -- MN_LakeEldrendarC
+    [7682358] =  171.0,  -- MN_LakeEldrendarD
+    [7682360] =  121.5,  -- MN_LakeEldrendarE
+    [7682362] =  141.7,  -- MN_LakeEldrendarF
+    [7682364] =  160.1,  -- MN_LakeEldrendarH
     [7698334] =  154.9,  -- MN_WindrunnerA
     [7698336] =  178.6,  -- MN_WindrunnerB
     [7698338] =  199.8,  -- MN_WindrunnerC
@@ -452,9 +451,14 @@ ns.TrackDurations = {
     [53642] =  120.0,  -- OL_BloodElfBaseWalkUni01
     [53643] =  121.6,  -- OL_BloodElfBaseWalkUni02
     [7681218] =   92.3,  -- MN_TwilightsBladeA
+    [7681220] =  103.4,  -- MN_TwilightsBladeB
     [7681222] =   95.1,  -- MN_TwilightsBladeC
     [7681224] =   61.6,  -- MN_TwilightsBladeD
+    [7681226] =   75.6,  -- MN_TwilightsBladeE
+    [7713458] =   77.8,  -- MN_TwilightsBladeF
+    [7713460] =   75.3,  -- MN_TwilightsBladeG
     [7681228] =  159.4,  -- MN_TwilightsBladeH
+    [7713462] =   76.9,  -- MN_TwilightsBladeI
     [7682282] =  110.3,  -- MN_AtalAbasiB
     [7682284] =  147.0,  -- MN_AtalAbasiC
     [7682286] =  135.9,  -- MN_AtalAbasiD
