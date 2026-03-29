@@ -55,6 +55,7 @@ local SILVERMOON_MIDNIGHT = Pack {
         T.MN_SilvermoonHordeA,
         T.MN_SilvermoonHordeB,
         T.MN_SilvermoonHordeC,
+        T.MN_SilvermoonHordeH,
         T.MN_SanctumOfLightA,
         T.MN_SanctumOfLightD,
         T.MN_SanctumOfLightH,
