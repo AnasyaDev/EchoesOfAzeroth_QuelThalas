@@ -105,6 +105,7 @@ ns.Tracks = {
     MN_SilvermoonHordeA        = 7698322,
     MN_SilvermoonHordeB        = 7698324,
     MN_SilvermoonHordeC        = 7698326,
+    MN_SilvermoonHordeH        = 7698328,
 
     -- Midnight > Murder Row --------------------------------
     MN_MurderRowA              = 7681088,
@@ -379,6 +380,7 @@ ns.TrackDurations = {
     [7698322] =  134.5,  -- MN_SilvermoonHordeA
     [7698324] =  103.6,  -- MN_SilvermoonHordeB
     [7698326] =  143.7,  -- MN_SilvermoonHordeC
+    [7698328] =  196.3,  -- MN_SilvermoonHordeH
     [7681088] =   86.4,  -- MN_MurderRowA
     [7681090] =   54.1,  -- MN_MurderRowB
     [7681092] =   67.1,  -- MN_MurderRowC
