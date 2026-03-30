@@ -117,6 +117,22 @@ ns.Tracks = {
     MN_SilvermoonInnA          = 7698330,
     MN_SilvermoonInnH          = 7698332,
 
+    -- Midnight > Silvermoon City Void (post-Voidspire) ----
+    MN_SilvermoonCityVoidA     = 7696440,
+    MN_SilvermoonCityVoidB     = 7696442,
+    MN_SilvermoonCityVoidC     = 7696444,
+    MN_SilvermoonCityVoidD     = 7696446,
+    MN_SilvermoonCityVoidE     = 7696448,
+    MN_SilvermoonCityVoidF     = 7696450,
+    MN_SilvermoonCityVoidG     = 7696452,
+    MN_SilvermoonCityVoidI     = 7696454,
+
+    -- Midnight > Silvermoon Horde Void (post-Voidspire) --
+    MN_SilvermoonHordeVoidA    = 7713442,
+    MN_SilvermoonHordeVoidB    = 7713444,
+    MN_SilvermoonHordeVoidC    = 7713446,
+    MN_SilvermoonHordeVoidD    = 7726430,
+
     -- Midnight > Eversong Village --------------------------
     MN_EversongVillageA        = 7690509,
     MN_EversongVillageB        = 7690511,
@@ -144,6 +160,11 @@ ns.Tracks = {
     MN_LakeEldrendarF          = 7682362,
     MN_LakeEldrendarH          = 7682364,
 
+    -- Midnight > Lake Elrendar Void (post-Voidspire) -----
+    MN_LakeEldrendarVoidA      = 7713414,
+    MN_LakeEldrendarVoidB      = 7713416,
+    MN_LakeEldrendarVoidC      = 7713418,
+
     -- Midnight > Windrunner Village -----------------------
     MN_WindrunnerA             = 7698334,
     MN_WindrunnerB             = 7698336,
@@ -162,6 +183,9 @@ ns.Tracks = {
     MN_ParhelionPlazaG         = 7691963,
     MN_ParhelionPlazaH         = 7703712,
     MN_ParhelionPlazaI         = 7703710,
+
+    -- Midnight > Quel'Danas Void --------------------------
+    MN_QuelDanasVoidD          = 7726428,
 
     -- TBC > Quel'Danas ------------------------------------
     QD_QuelDanasWalkUni01      = 53728,
@@ -386,6 +410,18 @@ ns.TrackDurations = {
     [7681094] =   65.5,  -- MN_MurderRowD
     [7698330] =  170.7,  -- MN_SilvermoonInnA
     [7698332] =  171.5,  -- MN_SilvermoonInnH
+    [7696440] =   84.6,  -- MN_SilvermoonCityVoidA
+    [7696442] =   95.5,  -- MN_SilvermoonCityVoidB
+    [7696444] =   70.1,  -- MN_SilvermoonCityVoidC
+    [7696446] =   62.2,  -- MN_SilvermoonCityVoidD
+    [7696448] =   84.6,  -- MN_SilvermoonCityVoidE
+    [7696450] =   98.6,  -- MN_SilvermoonCityVoidF
+    [7696452] =   82.4,  -- MN_SilvermoonCityVoidG
+    [7696454] =   61.6,  -- MN_SilvermoonCityVoidI
+    [7713442] =  147.9,  -- MN_SilvermoonHordeVoidA
+    [7713444] =  114.5,  -- MN_SilvermoonHordeVoidB
+    [7713446] =  103.4,  -- MN_SilvermoonHordeVoidC
+    [7726430] =   97.9,  -- MN_SilvermoonHordeVoidD
     [7690509] =  111.6,  -- MN_EversongVillageA
     [7690511] =  120.5,  -- MN_EversongVillageB
     [7690513] =  149.7,  -- MN_EversongVillageC
@@ -406,6 +442,9 @@ ns.TrackDurations = {
     [7682360] =  121.5,  -- MN_LakeEldrendarE
     [7682362] =  141.7,  -- MN_LakeEldrendarF
     [7682364] =  160.1,  -- MN_LakeEldrendarH
+    [7713414] =  135.9,  -- MN_LakeEldrendarVoidA
+    [7713416] =  117.0,  -- MN_LakeEldrendarVoidB
+    [7713418] =  134.0,  -- MN_LakeEldrendarVoidC
     [7698334] =  154.9,  -- MN_WindrunnerA
     [7698336] =  178.6,  -- MN_WindrunnerB
     [7698338] =  199.8,  -- MN_WindrunnerC
@@ -421,6 +460,7 @@ ns.TrackDurations = {
     [7691963] =  153.2,  -- MN_ParhelionPlazaG
     [7703712] =  105.0,  -- MN_ParhelionPlazaH
     [7703710] =   68.0,  -- MN_ParhelionPlazaI
+    [7726428] =  108.0,  -- MN_QuelDanasVoidD
     [53728] =  108.7,  -- QD_QuelDanasWalkUni01
     [53729] =   84.0,  -- QD_QuelDanasWalkUni02
     [53700] =   82.8,  -- SW_AssemblyChamberWalkUni01
