@@ -34,6 +34,8 @@ local subzones = {
     SUNCROWN_VILLAGE     = "Suncrown Village",
     SUNCROWN_TREE        = "Suncrown Tree",
     SILVERGLADE_REFUGE   = "Silverglade Refuge",
+    MAGISTERS_TERRACE    = "Magisters' Terrace",
+    MARCH_ON_QUELDANAS   = "March on Quel'Danas",
     -- Ghostlands (map 95) subzones
     SUNGRAZE_PEAK        = "Sungraze Peak",
     HATCHET_HILLS        = "Hatchet Hills",
@@ -59,6 +61,8 @@ if locale == "frFR" then
     subzones.SUNCROWN_VILLAGE     = "Solcouronne"
     subzones.SUNCROWN_TREE        = "Arbre de Solcouronne"
     subzones.SILVERGLADE_REFUGE   = "Refuge de Reflet-d\226\128\153Argent"
+    subzones.MAGISTERS_TERRACE    = "Terrasse des Magist\195\168res"
+    subzones.MARCH_ON_QUELDANAS   = "Marche sur Quel'Danas"
 
 elseif locale == "deDE" then
     names.SILVERMOON_CITY   = "Silbermond"

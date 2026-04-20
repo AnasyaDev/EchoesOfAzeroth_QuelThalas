@@ -280,6 +280,35 @@ local QUELDANAS_MIDNIGHT = Pack {
 
 local QUELDANAS_MIXED = MixedPack("Isle of Quel'Danas (TBC + Midnight)", QUELDANAS, QUELDANAS_MIDNIGHT)
 
+local MAGISTERS_TERRACE = Pack {
+    label = "Magisters' Terrace (TBC)",
+    any = {
+        T.SW_MagistersArrivalWalkUni01,
+        T.SW_MagistersAsylumWalkUni01,
+        T.SW_MagistersAsylumWalkUni02,
+        T.SW_MagistersAsylumWalkUni03,
+        T.SW_MagistersTerraceWalkUni01,
+        T.SW_MagistersTerraceWalkUni02,
+        T.SW_MagistersTerraceWalkUni03,
+        T.SW_MagistersTerraceWalkUni04,
+        T.SW_MagistersTerraceWalkUni05,
+        T.SW_ShorelAranWalkUni01,
+    },
+}
+
+local MARCH_ON_QUELDANAS = Pack {
+    label = "March on Quel'Danas (TBC)",
+    any = {
+        T.SW_PlateauSunwellArrivalWalkUni01,
+        T.SW_PlateauSunwellWalkUni01,
+        T.SW_PlateauSunwellWalkUni02,
+        T.SW_PlateauSunwellWalkUni03,
+        T.SW_AssemblyChamberWalkUni01,
+        T.SW_AssemblyChamberWalkUni02,
+        T.SW_FelEnergyWalkUni01,
+    },
+}
+
 ns.MusicPacks = {
     SILVERMOON = SILVERMOON,
     SILVERMOON_MIDNIGHT = SILVERMOON_MIDNIGHT,
@@ -299,6 +328,8 @@ ns.MusicPacks = {
     QUELDANAS = QUELDANAS,
     QUELDANAS_MIDNIGHT = QUELDANAS_MIDNIGHT,
     QUELDANAS_MIXED = QUELDANAS_MIXED,
+    MAGISTERS_TERRACE = MAGISTERS_TERRACE,
+    MARCH_ON_QUELDANAS = MARCH_ON_QUELDANAS,
 
     ZULAMAN = Pack {
         label = "Zul'Aman",

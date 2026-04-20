@@ -40,5 +40,8 @@ ns.ZoneMusic = {
     }),
 
     -- Isle of Quel'Danas (2424)
-    [2424] = Dsl.zone("ISLE_OF_QUELDANAS", "QUELDANAS"),
+    [2424] = Dsl.zone("ISLE_OF_QUELDANAS", "QUELDANAS", {
+        MAGISTERS_TERRACE = "MAGISTERS_TERRACE",
+        MARCH_ON_QUELDANAS = "MARCH_ON_QUELDANAS",
+    }),
 }

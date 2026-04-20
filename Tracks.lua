@@ -208,6 +208,7 @@ ns.Tracks = {
     SW_PlateauSunwellWalkUni01       = 53722,
     SW_PlateauSunwellWalkUni02       = 53723,
     SW_PlateauSunwellWalkUni03       = 53724,
+    SW_ShorelAranWalkUni01           = 53731,
 
     -- TBC > Zul'Aman --------------------------------------
     ZA_WalkUni01                     = 53825,
@@ -479,6 +480,7 @@ ns.TrackDurations = {
     [53722] =   85.1,  -- SW_PlateauSunwellWalkUni01
     [53723] =   78.6,  -- SW_PlateauSunwellWalkUni02
     [53724] =   90.0,  -- SW_PlateauSunwellWalkUni03
+    [53731] =  125.0,  -- SW_ShorelAranWalkUni01
     [53825] =  113.8,  -- ZA_WalkUni01
     [53826] =   74.5,  -- ZA_WalkUni02
     [53827] =  108.6,  -- ZA_WalkUni03
