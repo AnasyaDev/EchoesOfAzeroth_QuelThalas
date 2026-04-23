@@ -18,6 +18,10 @@ end
 --   subzones = { [KEY] = "PACK_KEY", ... }
 --
 -- Discover zone / subzone info in-game:   /eoqt now
+--
+-- Dungeons and raids use their own UiMap tree, not the open-world
+-- parent (e.g. Magisters' Terrace is not a subzone of map 2424).
+-- Instance roots use in-game UiMapIDs (see /eoqt now when standing inside).
 -- ============================================================
 
 ns.ZoneMusic = {
@@ -40,8 +44,11 @@ ns.ZoneMusic = {
     }),
 
     -- Isle of Quel'Danas (2424)
-    [2424] = Dsl.zone("ISLE_OF_QUELDANAS", "QUELDANAS", {
-        MAGISTERS_TERRACE = "MAGISTERS_TERRACE",
-        MARCH_ON_QUELDANAS = "MARCH_ON_QUELDANAS",
-    }),
+    [2424] = Dsl.zone("ISLE_OF_QUELDANAS", "QUELDANAS"),
+
+    -- Magisters' Terrace — Midnight dungeon (leaf map from /eoqt now)
+    [2515] = Dsl.zone("MAGISTERS_TERRACE", "MAGISTERS_TERRACE"),
+
+    -- March on Quel'Danas — Midnight raid (confirm with /eoqt now)
+    [2533] = Dsl.zone("MARCH_ON_QUELDANAS", "MARCH_ON_QUELDANAS"),
 }

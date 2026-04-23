@@ -22,6 +22,8 @@ local names = {
     EVERSONG_WOODS    = "Eversong Woods",
     GHOSTLANDS        = "Ghostlands",
     ISLE_OF_QUELDANAS = "Isle of Quel'Danas",
+    MAGISTERS_TERRACE = "Magisters' Terrace",
+    MARCH_ON_QUELDANAS = "March on Quel'Danas",
 }
 
 local subzones = {
@@ -34,8 +36,6 @@ local subzones = {
     SUNCROWN_VILLAGE     = "Suncrown Village",
     SUNCROWN_TREE        = "Suncrown Tree",
     SILVERGLADE_REFUGE   = "Silverglade Refuge",
-    MAGISTERS_TERRACE    = "Magisters' Terrace",
-    MARCH_ON_QUELDANAS   = "March on Quel'Danas",
     -- Ghostlands (map 95) subzones
     SUNGRAZE_PEAK        = "Sungraze Peak",
     HATCHET_HILLS        = "Hatchet Hills",
@@ -51,6 +51,8 @@ if locale == "frFR" then
     names.SILVERMOON_CITY   = "Lune d’Argent"
     names.EVERSONG_WOODS    = "Bois des Chants \195\169ternels"
     names.ISLE_OF_QUELDANAS = "\195\142le de Quel’Danas"
+    names.MAGISTERS_TERRACE = "Terrasse des Magist\195\168res"
+    names.MARCH_ON_QUELDANAS = "Marche sur Quel'Danas"
 
     subzones.MURDER_ROW           = "All\195\169e du meurtre"
     subzones.WINDRUNNER_VILLAGE   = "Coursevent"
@@ -61,13 +63,13 @@ if locale == "frFR" then
     subzones.SUNCROWN_VILLAGE     = "Solcouronne"
     subzones.SUNCROWN_TREE        = "Arbre de Solcouronne"
     subzones.SILVERGLADE_REFUGE   = "Refuge de Reflet-d\226\128\153Argent"
-    subzones.MAGISTERS_TERRACE    = "Terrasse des Magist\195\168res"
-    subzones.MARCH_ON_QUELDANAS   = "Marche sur Quel'Danas"
 
 elseif locale == "deDE" then
     names.SILVERMOON_CITY   = "Silbermond"
     names.EVERSONG_WOODS    = "Immersangwald"
     names.ISLE_OF_QUELDANAS = "Insel von Quel'Danas"
+    names.MAGISTERS_TERRACE = "Terrasse der Magister"
+    names.MARCH_ON_QUELDANAS = "Marsch auf Quel'Danas"
 
     subzones.MURDER_ROW           = "M\195\182rdergasse"
     subzones.WINDRUNNER_VILLAGE   = "Windl\195\164uferdorf"
