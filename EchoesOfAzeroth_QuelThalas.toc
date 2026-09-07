@@ -1,4 +1,4 @@
-## Interface: 120005
+## Interface: 120100
 ## Title: Echoes of Azeroth: Quel'Thalas
 ## Notes: Quel'Thalas music content plugin for Echoes of Azeroth
 ## Version: 2.0.7
